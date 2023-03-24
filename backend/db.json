@@ -1,14 +1,8 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que você veio!",
-      "autoria": "Vítor",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
-      "conteudo": "Que dia bonito!",
+      "conteudo": "Testando função de editar!",
       "autoria": "Isabela",
       "modelo": "modelo2"
     },
@@ -17,6 +11,18 @@
       "conteudo": "Queria ir a praia!",
       "autoria": "Lucas",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Estudando Angular!",
+      "autoria": "Dev",
+      "modelo": "modelo1",
+      "id": 4
+    },
+    {
+      "conteudo": "Finalizando o curso de Angular",
+      "autoria": "dev",
+      "modelo": "modelo2",
+      "id": 5
     }
   ]
 }
