@@ -5,10 +5,22 @@
 
   <form >
     <label for="pensamento">Pensamento</label>
-    <input type="textarea" class="input" id="pensamento" name="pensamento" placeholder="digite o pensamento..." [(ngModel)]="pensamento.conteudo">
+    <input
+    type="textarea"
+    class="input"
+    id="pensamento"
+    name="pensamento"
+    placeholder="digite o pensamento..."
+    [(ngModel)]="pensamento.conteudo">
 
     <label for="autoria">Autoria</label>
-    <input type="textarea" class="input" id="autoria" name="autoria" placeholder="digite a autoria ou fonte..." [value]="pensamento.autoria">
+    <input
+    type="text"
+    class="input"
+    id="autoria"
+    name="autoria"
+    placeholder="digite a autoria ou fonte..."
+   [(ngModel)]="pensamento.autoria">
 
     <label for="modelo">Selecione o modelo do card</label>
     <div class="container-radio">
@@ -62,8 +74,8 @@
       </div>
     </div>
     <div class="acoes">
-      <button (click)="criarPensamento()" class="botao">Salvar</button>
-      <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
+      <button routerLink="/listarPensamento" (click)="criarPensamento()" class="botao">Salvar</button>
+      <button routerLink="/listarPensamento" (click)="cancelarPensamento()" class="botao">Cancelar</button>
     </div>
   </form>
 
